@@ -1,0 +1,21 @@
+{
+  "name": "facebook_clone",
+  "version": "1.0.0",
+  "description": "This is facebook clone make this project use node,express,mongodb,mongoose . This project author Satya Ranjon. This project start 24/9/2022.",
+  "main": "server.js",
+  "repository": "https://github.com/satya-ranjon/facebook_backend.git",
+  "author": "Satya Ranjon",
+  "license": "MIT",
+  "scripts": {
+    "pro": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=development nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
