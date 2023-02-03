@@ -7,15 +7,16 @@
   "author": "Satya Ranjon",
   "license": "MIT",
   "scripts": {
-    "pro": "NODE_ENV=production node server.js",
-    "start": "NODE_ENV=development nodemon server.js"
+    "pro": " cross-env NODE_ENV=production node server.js",
+    "start": "cross-env NODE_ENV=development nodemon server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
-    "mongoose": "^6.6.1"
+    "mongoose": "^6.8.2"
   }
 }
